@@ -22,7 +22,7 @@ class App extends Component {
         </Container>
         <Container>
           <Row>
-            <Container></Container>
+            <Col></Col>
           </Row>
         </Container>
       </Container>
