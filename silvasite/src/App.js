@@ -2,30 +2,26 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import {Container, Row, Col} from 'reactstrap';
-
+import NavBar from './Nav.jsx';
+import Hero from './Hero.jsx'
 class App extends Component {
   render() {
     return (
-      <Container>
+      <div >
+        <NavBar />
+        <Hero />
         <Container>
-          <Row>
-            <Col></Col>
-          </Row>
-        </Container>
-        <Container>
-          <Row>
-            <Col></Col>
-            <Col></Col>
-            <Col></Col>
-            <Col></Col>
-          </Row>
+            <Row>More Sruff</Row>
+            <Row>More Struff</Row>
+            <Row>MORe and more</Row>
+            <Row>More stuff</Row>
         </Container>
         <Container>
           <Row>
             <Col></Col>
           </Row>
         </Container>
-      </Container>
+      </div>
     );
   }
 }
