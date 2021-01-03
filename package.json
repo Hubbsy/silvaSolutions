@@ -1,0 +1,15 @@
+{
+  "name": "silvasite",
+  "version": "1.0.0",
+  "description": "Silva Home Solutions Company Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "silvaSolutions"
+  },
+  "author": "Justin Hubbell",
+  "license": "MIT"
+}
