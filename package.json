@@ -11,5 +11,8 @@
     "url": "silvaSolutions"
   },
   "author": "Justin Hubbell",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.5.3"
+  }
 }
